@@ -1,6 +1,6 @@
 exports.config = {
   bundles: [
-    { components: ['my-name'] }
+    { components: ['my-modal-bundle', 'my-modal', 'my-backdrop'] }
   ],
   collections: [
     { name: '@stencil/router' }

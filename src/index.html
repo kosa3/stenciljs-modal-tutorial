@@ -16,7 +16,14 @@
 </head>
 <body>
 
-  <my-name first="Stencil" last="JS"></my-name>
-
+  <button>Open Modal</button>
+  <my-modal-bundle title="Info" content="This is an impotant infomation!"></my-modal-bundle>
+  <script>
+    var btn = document.querySelector('button');
+    var modal = document.querySelector('my-modal-bundle')
+    btn,addEventListener('click', function() {
+      modal.open();
+    });
+  </script>
 </body>
 </html>
